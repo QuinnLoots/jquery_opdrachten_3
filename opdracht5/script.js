@@ -26,7 +26,7 @@ $(document).keydown(function(e) {
         default: return; // exit this handler for other keys
     }
     ctx.clearRect(0,0, c.width, c.height); 
-   ctx.beginPath();
+    ctx.beginPath();
     ctx.rect(20+deltaX, 20+deltaY, 20, 20);
     ctx.stroke();
 });
